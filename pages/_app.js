@@ -7,15 +7,15 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <DefaultSeo
-        title="Moviesapp"
-        titleTemplate="%s | Moviesapp"
+        title="MyrottenTomato"
+        titleTemplate="%s | MyRottenTomato"
         description="Find all your favourite movies and tv shows "
         canonical={process.env.NEXT_PUBLIC_DOMAIN}
         openGraph={{
           type: "website",
           locale: "en_IE",
           url: process.env.NEXT_PUBLIC_DOMAIN,
-          title: "Moviesapp",
+          title: "MyRottenTomato",
           description: "Find all your favourite movies and tv shows ",
         }}
       />
