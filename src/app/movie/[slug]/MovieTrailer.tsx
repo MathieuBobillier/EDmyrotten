@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-// @ts-ignore
 import movieTrailer from 'movie-trailer'
 import YouTube from 'react-youtube'
 

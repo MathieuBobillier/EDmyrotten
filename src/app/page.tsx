@@ -30,8 +30,6 @@ export default async function Home({ searchParams }: HomeProps) {
 
 	const results = data?.results || []
 
-	// await new Promise((resolve) => setTimeout(resolve, 2000))
-
 	return (
 		<div className="mt-2 max-w-6xl flex-1 p-4 text-center sm:mx-auto">
 			{results && results.length === 0 && (

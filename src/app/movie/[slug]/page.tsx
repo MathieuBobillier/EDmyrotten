@@ -19,15 +19,9 @@ async function getMovieBySlug(id: string) {
 		const url = `https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}`
 		const res = await fetch(url)
 		const data = await res.json()
-
-		// if (data.status_code === 34) {
-		// 	throw new Error('Movie not found')
-		// }
-
 		return data
 	} catch (error) {
 		console.log(error)
-		// throw new Error('Failed to get movie data')
 	}
 }
 
@@ -37,8 +31,6 @@ export default async function page(props: Props) {
 	if (!movie || (movie && movie?.status_code == 34)) {
 		return notFound()
 	}
-
-	// await new Promise((resolve) => setTimeout(resolve, 2000))
 
 	return (
 		<div className="mx-auto  flex w-full max-w-6xl flex-col space-y-8">

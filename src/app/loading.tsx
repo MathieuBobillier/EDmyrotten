@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 export default function loading() {
 	const loadingItems = Array(16).fill(null)
 	return (

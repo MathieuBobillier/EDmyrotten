@@ -10,9 +10,6 @@ export default function SearchBox() {
 
 	const [searchTerm, setSearchTerm] = useState<string | ''>('')
 
-	// Debounce search term so that it only gives us latest value ...
-	// ... if searchTerm has not been updated within last 500ms
-	// As a result the API call should only fire once user stops typing
 	const debouncedSearchTerm = useDebounce(searchTerm, 300)
 
 	useEffect(() => {
@@ -21,7 +18,7 @@ export default function SearchBox() {
 		}
 		if (searchTerm) {
 		}
-	}, [debouncedSearchTerm]) // Only call effect if debounced search term or region changes
+	}, [debouncedSearchTerm]) 
 
 	const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		const value = event.target.value
