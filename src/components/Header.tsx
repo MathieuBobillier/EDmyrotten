@@ -17,12 +17,11 @@ export default function Header() {
 				<Link href={'./'}>
 					<h2 className="text-2xl">
 						<span className="mr-3 rounded-lg bg-amber-500 py-1 px-2 font-bold transition-all duration-300">
-							IMDB
+							My Rotten Tomatos
 						</span>
 						<span
 							className="hidden text-xl sm:inline
             ">
-							Clone
 						</span>
 					</h2>
 				</Link>
