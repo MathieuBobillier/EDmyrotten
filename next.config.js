@@ -1,10 +1,11 @@
-module.exports = {
-  images: {
-    domains: ["image.tmdb.org"],
-  },
-  eslint: {
-    // Warning: Dangerously allow production builds to successfully complete even if
-    // your project has ESLint errors.
-    ignoreDuringBuilds: true,
-  },
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+	experimental: {
+		appDir: true,
+	},
+	images: {
+		domains: ['image.tmdb.org'],
+	},
+}
+
+module.exports = nextConfig
