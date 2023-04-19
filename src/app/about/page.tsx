@@ -15,6 +15,11 @@ export default function page() {
 
 				Thank you for visiting our website and we hope you find what you're looking for!<br/>
 			</p>
+			<div className="mt-2 max-w-6xl flex-1 p-4 text-center sm:mx-auto">
+				<h1 className="mt-8 rounded border border-slate-400 bg-transparent p-6 font-bold">
+					By Killian Vasse - Mathieu Bobillier
+				</h1>
+			</div>
 		</div>
 	)
 }
