@@ -4,6 +4,7 @@ import { AiFillHome } from 'react-icons/ai'
 import { BsFillInfoCircleFill } from 'react-icons/bs'
 import DarkModSwitch from './DarkModSwitch'
 import MenuItem from './MenuItem'
+import LoginPage from './auth'
 
 export default function Header() {
 	return (
@@ -26,6 +27,10 @@ export default function Header() {
 					</h2>
 				</Link>
 			</div>
+			<div className="flex items-center space-x-4 pr-3">
+				<LoginPage/>
+			</div>
+			
 		</header>
 	)
 }

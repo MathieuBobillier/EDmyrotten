@@ -7,6 +7,11 @@ interface Request {
 	}
 }
 
+const autant: Request = {
+
+
+}
+
 const request: Request = {
 	fetchTrending: {
 		title: 'Trending',
@@ -60,4 +65,7 @@ const request: Request = {
 	},
 }
 
-export default request
+export default {
+	request,
+	autant
+}
