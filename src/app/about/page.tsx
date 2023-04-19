@@ -5,15 +5,15 @@ export default function page() {
 		<div className="mx-auto mb-8 max-w-6xl space-y-5 p-4">
 			<h1 className="text-2xl font-medium text-amber-600">About</h1>
 			<p>
-				Bienvenue sur notre site de référencement de films et de séries ! Nous sommes une petite équipe de deux développeurs passionnés qui ont créé cet outil pour aider les amateurs de cinéma et de télévision à trouver facilement les titres qu'ils recherchent.<br/><br/>
+				Welcome to our movie and TV show directory website! We are a small team of two passionate developers who have created this tool to help cinema and TV enthusiasts easily find the titles they are looking for.<br/><br/>
 
-				Notre site est conçu pour être simple et facile à utiliser. Vous pouvez naviguer à travers notre catalogue de films et de séries en utilisant une variété de filtres, tels que le genre, la durée, l'année de sortie et la notation des utilisateurs. Vous pouvez également utiliser notre barre de recherche pour trouver rapidement des titres spécifiques.<br/><br/>
+				Our website is designed to be simple and user-friendly. You can browse through our catalog of movies and TV shows using a variety of filters, such as genre, runtime, release year, and user ratings. You can also use our search bar to quickly find specific titles.<br/><br/>
 
-				Nous sommes fiers de dire que notre site est régulièrement mis à jour avec les dernières sorties cinématographiques et télévisuelles, ce qui signifie que vous pouvez toujours trouver les derniers films et séries à la mode.<br/><br/>
+				We are proud to say that our site is regularly updated with the latest cinematic and television releases, which means you can always find the latest and most popular movies and TV shows.<br/><br/>
 
-				Nous sommes une équipe dévouée à offrir une expérience utilisateur de qualité supérieure, et nous sommes toujours ouverts aux commentaires et aux suggestions de nos utilisateurs. N'hésitez pas à nous contacter si vous avez des questions ou des commentaires.<br/><br/><br/>
+				We are a dedicated team committed to providing a superior user experience, and we are always open to feedback and suggestions from our users. Please do not hesitate to contact us if you have any questions or comments.<br/><br/><br/>
 
-				Merci de visiter notre site et nous espérons que vous trouverez ce que vous cherchez !
+				Thank you for visiting our website and we hope you find what you're looking for!<br/>
 			</p>
 		</div>
 	)
