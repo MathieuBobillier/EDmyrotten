@@ -58,6 +58,10 @@ const request: Request = {
 		title: 'Family',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=10751`,
 	},
+	Authentification: {
+		title: 'Authentification',
+		url: `/authentication/token/new?api_key=${API_KEY}`,
+	},
 }
 
 export default request
