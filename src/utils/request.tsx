@@ -13,7 +13,7 @@ const request: Request = {
 		url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
 	},
 	fetchNetflixOriginals: {
-		title: 'Originals',
+		title: 'Netflix',
 		url: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
 	},
 	fetchRomanceMovies: {
