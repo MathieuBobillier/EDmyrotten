@@ -58,9 +58,57 @@ const request: Request = {
 		title: 'Family',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=10751`,
 	},
-	fetchseriesOriginals: {
-		title: 'Series',
-		url: `/discover/tv?api_key=${API_KEY}`,
+	fetchseriesFamily: {
+		title: 'Family',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=10751`,
+	},
+	fetchseriesTopRated: {
+		title: 'Top Rated',
+		url: `/tv/top_rated?api_key=${API_KEY}`,
+	},
+	fetchseriesPopular: {
+		title: 'Popular',
+		url: `/tv/popular?api_key=${API_KEY}`,
+	},
+	fetchseriesReality: {
+		title: 'Reality',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=10764`,
+	},
+	fetchseriesAction: {
+		title: 'Action',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=10759`,
+	},
+	fetchseriesWar: {
+		title: 'War',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=10768`,
+	},
+	fetchseriesComedy: {
+		title: 'Comedy',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=35`,
+	},
+	fetchseriesCrime: {
+		title: 'Crime',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=80`,
+	},
+	fetchseriesDocumentary: {
+		title: 'Documentary',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=99`,
+	},
+	fetchseriesDrama: {
+		title: 'Drama',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=18`,
+	},
+	fetchseriesMystery: {
+		title: 'Mystery',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=9648`,
+	},
+	fetchseriesFantasy: {
+		title: 'Fantasy',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=10765`,
+	},
+	fetchseriesWestern: {
+		title: 'Western',
+		url: `/discover/tv?api_key=${API_KEY}&with_genres=37`,
 	},
 }
 
