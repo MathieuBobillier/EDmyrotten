@@ -1,19 +1,19 @@
 import { useEffect } from 'react';
-import { useRouter } from 'next/router';
 import { getSessionId, getAccountDetails } from '../app/Autantification/Index';
 
-const ApprovedPage = (): JSX.Element => {
-  const router = useRouter();
-  const { request_token } = router.query;
+type ApprovedPageProps = {
+  requestToken: string;
+};
 
+export const ApprovedPage = ({ requestToken }: ApprovedPageProps): JSX.Element => {
   useEffect(() => {
     const handleSession = async (): Promise<void> => {
-      const sessionId = await getSessionId(request_token as string);
+      const sessionId = await getSessionId(requestToken);
       const accountDetails = await getAccountDetails(sessionId);
       console.log(accountDetails);
     };
     handleSession();
-  }, [request_token]);
+  }, [requestToken]);
 
   return (
     <div>
@@ -21,5 +21,3 @@ const ApprovedPage = (): JSX.Element => {
     </div>
   );
 };
-
-export default ApprovedPage
