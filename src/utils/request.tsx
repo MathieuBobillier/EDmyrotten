@@ -58,6 +58,10 @@ const request: Request = {
 		title: 'Family',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=10751`,
 	},
+	fetchseriesOriginals: {
+		title: 'Series',
+		url: `/discover/tv?api_key=${API_KEY}`,
+	},
 }
 
 export default request
