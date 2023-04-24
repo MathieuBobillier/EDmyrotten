@@ -7,4 +7,5 @@ const nextConfig = {
 		domains: ['image.tmdb.org'],
 	},
 }
+
 module.exports = nextConfig
