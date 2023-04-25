@@ -13,7 +13,7 @@ export default function page() {
 
 				We are a dedicated team committed to providing a superior user experience, and we are always open to feedback and suggestions from our users. Please do not hesitate to contact us if you have any questions or comments.<br/><br/><br/>
 
-				Thank you for visiting our website and we hope you find what you're looking for!<br/>
+				Thank you for visiting our website and we hope you find what you are looking for!<br/>
 			</p>
 			<div className="mt-2 max-w-6xl flex-1 p-4 text-center sm:mx-auto">
 				<h1 className="mt-8 rounded border border-slate-400 bg-transparent p-6 font-bold">
