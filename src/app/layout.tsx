@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import NaveBar from '@/components/NaveBar'
+import NaveBarS from '@/components/NaveBarS'
 import Providers from './Providers'
 import SearchBox from '@/components/SearchBox'
 
@@ -22,6 +23,7 @@ export default function RootLayout({
 				<Providers>
 					<Header />
 					<NaveBar />
+					<NaveBarS />
 					<SearchBox />
 					<main className="flex-1">{children}</main>
 					<Footer />
