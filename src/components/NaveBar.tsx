@@ -1,5 +1,7 @@
-import React from 'react'
-import NaveBarItem from './NaveBarItem'
+'use client'
+
+import React from 'react';
+import NaveBarItem from './NaveBarItem';
 
 export default function NaveBar() {
 	return (

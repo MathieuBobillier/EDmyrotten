@@ -27,7 +27,6 @@ async function getMovieBySlug(id: string) {
 
 export default async function page(props: Props) {
 	const movie = await getMovieBySlug(props.params.slug || '')
-
 	if (!movie || (movie && movie?.status_code == 34)) {
 		return notFound()
 	}
@@ -84,7 +83,6 @@ export default async function page(props: Props) {
 					) : null}
 				</div>
 			</div>
-
 			<div className="p-4">
 				<YouTubeTrailer movie={movie} />
 			</div>
