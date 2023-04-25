@@ -22,7 +22,6 @@ export default async function Home({ searchParams }: HomeProps) {
 	const res = await fetch(url, { next: { revalidate: 10000 } })
 
 	if (!res.ok) {
-		// this will be caught by the error page and passed to the page as props
 		throw new Error('Failed to fetch data')
 	}
 

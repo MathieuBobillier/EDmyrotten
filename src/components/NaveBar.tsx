@@ -15,7 +15,6 @@ export default function NaveBar() {
 			<NaveBarItem title="Mystery" param="fetchMysteryMovies" />
 			<NaveBarItem title="Animation" param="fetchAnimationMovies" />
 			<NaveBarItem title="Family" param="fetchFamilyMovies" />
-			<NaveBarItem title="Authentification" param="Authentification" />
 		</div>
 	)
 }
