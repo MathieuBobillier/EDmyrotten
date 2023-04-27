@@ -20,6 +20,6 @@
 #  We hope you enjoy your experience on our film and TV series site,                                                         #
 #  and please do not hesitate to contact us if you have any questions or comments!                                           #
 #                                                                                                                            #
-#  Unfortunately the site could not be deployed due to build errors, we tried to fix this but unfortunately, in vain         #                                           #                                                                                                                          ##
-#                                                                                                                          # #
+#  Unfortunately the site could not be deployed due to build errors, we tried to fix this but unfortunately, in vain       #                                             #                                                                                                                          #
+#                                                                                                                          #
 ############################################################################################################################
